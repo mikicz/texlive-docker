@@ -1,5 +1,5 @@
-build: Dockerfile
+build:
 	docker build -t "docker.io/mikicz/texlive-docker:27" .
 
-push: build
+push:
 	docker push docker.io/mikicz/texlive-docker:27
