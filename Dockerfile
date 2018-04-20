@@ -17,6 +17,10 @@ RUN dnf install -y texlive \
                    texlive-biblatex \
                    texlive-biblatex-iso690 \
                    texlive-blindtext \
+                   texlive-standalone \
+                   texlive-aeguill \
                    biber \
                    dejavu-sans-mono-fonts \
-                   linux-libertine-fonts
+                   linux-libertine-fonts \
+                   graphviz
+
