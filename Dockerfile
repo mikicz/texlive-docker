@@ -22,6 +22,7 @@ RUN dnf install -y texlive \
                    biber \
                    dejavu-sans-mono-fonts \
                    linux-libertine-fonts \
+                   linux-libertine-biolinum-fonts \
                    graphviz \
                    inkscape
 
