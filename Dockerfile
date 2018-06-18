@@ -19,6 +19,7 @@ RUN dnf install -y texlive \
                    texlive-blindtext \
                    texlive-standalone \
                    texlive-aeguill \
+                   texlive-appendixnumberbeamer \
                    biber \
                    dejavu-sans-mono-fonts \
                    linux-libertine-fonts \
