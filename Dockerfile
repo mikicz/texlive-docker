@@ -1,4 +1,4 @@
-FROM fedora:27
+FROM fedora:30
 
 RUN dnf install -y java-1.8.0-openjdk python2-pip
 
@@ -20,6 +20,7 @@ RUN dnf install -y texlive \
                    texlive-standalone \
                    texlive-aeguill \
                    texlive-appendixnumberbeamer \
+                   texlive-a4wide \
                    biber \
                    dejavu-sans-mono-fonts \
                    linux-libertine-fonts \
