@@ -26,5 +26,6 @@ RUN dnf install -y texlive \
                    linux-libertine-fonts \
                    linux-libertine-biolinum-fonts \
                    graphviz \
-                   inkscape
+                   inkscape \
+                   make
 
