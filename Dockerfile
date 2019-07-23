@@ -21,11 +21,16 @@ RUN dnf install -y texlive \
                    texlive-aeguill \
                    texlive-appendixnumberbeamer \
                    texlive-a4wide \
+                   texlive-nag \
+                   texlive-emptypage \
+                   texlive-was \
+                   texlive-multirow \
+                   texlive-algorithmicx \
                    biber \
                    dejavu-sans-mono-fonts \
                    linux-libertine-fonts \
                    linux-libertine-biolinum-fonts \
                    graphviz \
                    inkscape \
-                   make
-
+                   make \
+                   findutils
