@@ -26,6 +26,9 @@ RUN dnf install -y texlive \
                    texlive-was \
                    texlive-multirow \
                    texlive-algorithmicx \
+                   texlive-tcolorbox \
+                   texlive-dashrule \
+                   texlive-fontawesome \
                    biber \
                    dejavu-sans-mono-fonts \
                    linux-libertine-fonts \
@@ -33,4 +36,6 @@ RUN dnf install -y texlive \
                    graphviz \
                    inkscape \
                    make \
-                   findutils
+                   findutils \
+                   git \
+                   google-crosextra-carlito-fonts
