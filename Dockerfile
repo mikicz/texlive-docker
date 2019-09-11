@@ -1,9 +1,9 @@
 FROM fedora:30
 
-RUN dnf install -y java-1.8.0-openjdk python2-pip
+RUN dnf install -y java-1.8.0-openjdk
 
 # we need the command pygmentize - but it doesn't get created when python-pygments is installed, ergo:
-RUN pip install pygments
+RUN pip3 install pygments
 
 RUN dnf install -y texlive \
                    texlive-dirtree \
@@ -29,6 +29,7 @@ RUN dnf install -y texlive \
                    texlive-tcolorbox \
                    texlive-dashrule \
                    texlive-fontawesome \
+                   texlive-tocloft \
                    biber \
                    dejavu-sans-mono-fonts \
                    linux-libertine-fonts \
@@ -38,4 +39,7 @@ RUN dnf install -y texlive \
                    make \
                    findutils \
                    git \
-                   google-crosextra-carlito-fonts
+                   google-crosextra-carlito-fonts \
+                   wget \
+                   which
+
