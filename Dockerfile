@@ -1,9 +1,10 @@
-FROM fedora:30
+FROM fedora:39
 
-RUN dnf install -y java-1.8.0-openjdk
+RUN dnf install -y java-1.8.0-openjdk \
+                   python-pip
 
 # we need the command pygmentize - but it doesn't get created when python-pygments is installed, ergo:
-RUN pip3 install pygments
+RUN pip install pygments
 
 RUN dnf install -y texlive \
                    texlive-dirtree \
