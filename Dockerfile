@@ -29,8 +29,15 @@ RUN dnf install -y texlive \
                    texlive-algorithmicx \
                    texlive-tcolorbox \
                    texlive-dashrule \
-                   texlive-fontawesome \
+                   texlive-fontawesome5 \
                    texlive-tocloft \
+                   texlive-pdfx \
+                   texlive-tikzfill  \
+                   texlive-paracol  \
+                   texlive-lato  \
+                   texlive-collection-fontsextra \
+                   texlive-soul \
+                   texlive-silence \
                    biber \
                    dejavu-sans-mono-fonts \
                    linux-libertine-fonts \
@@ -43,4 +50,3 @@ RUN dnf install -y texlive \
                    google-crosextra-carlito-fonts \
                    wget \
                    which
-
