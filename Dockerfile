@@ -1,4 +1,4 @@
-FROM fedora:39
+FROM fedora:40
 
 RUN dnf install -y java-1.8.0-openjdk \
                    python-pip
