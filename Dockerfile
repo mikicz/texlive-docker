@@ -1,6 +1,6 @@
-FROM fedora:40
+FROM fedora:44
 
-RUN dnf install -y java-1.8.0-openjdk \
+RUN dnf install -y java-25-openjdk \
                    python-pip
 
 # we need the command pygmentize - but it doesn't get created when python-pygments is installed, ergo:
